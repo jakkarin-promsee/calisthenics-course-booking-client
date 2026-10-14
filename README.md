@@ -142,3 +142,7 @@ client/
 For a full booking product, the next team needs to define persistent plans, availability and time zones, reservation locking, package balance accounting, payment provider or slip review, coach workflows, notification policy, and privacy handling for health notes. The current UI supplies a concrete starting point for that work, not those production guarantees.
 
 To recapture the screenshots after changing the UI, build the client, serve `dist/` at port 4173, then run `docs/capture_screenshots.py` with Python Playwright and Pillow installed. The script mocks a signed-in browser session for demo-only screens and writes the WebP files in `docs/`.
+
+## License
+
+Original code and documentation authored by Jakkarin Promsee are licensed under the [MIT License](LICENSE). Third-party code, assets, datasets, and other materials are not covered by this license; their original terms apply.
